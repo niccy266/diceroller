@@ -37,7 +37,6 @@ def startrolling():
                 print(help_)
 
     print("Happy rolling!")
-    sleep(.8)
 
 
 def rolldice(num):
