@@ -40,5 +40,6 @@ def rolldice(num):
         print("\trolled a\t", randint(1,int(num)), "on a \td" + num)
     return True
 
-main()
+if(__name__ == "__main__") :
+    main()
     
