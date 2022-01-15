@@ -5,14 +5,13 @@ help_ = """
 Enter any positive number to roll a dice with that many sides
 Enter Nothing to reroll the last dice (rolls a 20 if no dice have been rolled)
 "h" for help
-"q" to quit
-"""
+"q" to quit"""
 
 def main() :
     startrolling()
     exit(0)
 
-def startrolling()
+def startrolling():
     num = "pass"
     lastnum = "20"
     while(True) :
