@@ -9,6 +9,10 @@ Enter Nothing to reroll the last dice (rolls a 20 if no dice have been rolled)
 """
 
 def main() :
+    startrolling()
+    exit(0)
+
+def startrolling()
     num = "pass"
     lastnum = "20"
     while(True) :
@@ -27,7 +31,6 @@ def main() :
     
     print("Happy rolling!")
     sleep(.8)
-    exit(0)
 
 def rolldice(num):
     if(num == "pass") : return False
