@@ -1,5 +1,5 @@
 from random import randint
-from time import sleep
+#  from time import sleep
 
 help_ = """
 Enter any positive number to roll a dice with that many sides
@@ -37,6 +37,7 @@ def startrolling():
                 print(help_)
 
     print("Happy rolling!")
+    #  sleep(.8)
 
 
 def rolldice(num):
